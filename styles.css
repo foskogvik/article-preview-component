@@ -1,0 +1,63 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  background-color: hsl(210, 46%, 95%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image {
+  width: 40%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+main {
+  display: flex;
+  background-color: white;
+  width: 700px;
+  min-width: 400px;
+  border-radius: 10px;
+}
+
+.section-wrapper {
+  padding: 0 5%;
+}
+
+.profile-section {
+  display: flex;
+
+}
+
+.profile-picture {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+h1 {
+  color: hsl(217, 19%, 35%);
+}
+
+h3 {
+  color: hsl(217, 19%, 35%);
+}
+
+.profile-section p {
+  color: hsl(214, 17%, 51%);
+}
+
+p {
+  color: hsl(214, 17%, 51%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

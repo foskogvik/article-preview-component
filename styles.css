@@ -201,14 +201,14 @@ main {
 
   .profile-section {
     position: relative;
-    top: 20px;
+    top: 25px;
   }
 
   .share-toolbar {
     width: 351px;
     height: 70px;
     border-radius: 0px 0px 10px 10px;
-    bottom: 3px;
+    bottom: 8px;
   }
 
   .share-toolbar p {
@@ -223,6 +223,11 @@ main {
 
   .button-active {
     background-color: hsl(214, 17%, 51%)
+  }
+
+  .button-background:hover {
+    background-color: hsl(214, 17%, 51%);
+    cursor: pointer;
   }
 
 }

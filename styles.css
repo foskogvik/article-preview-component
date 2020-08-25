@@ -200,6 +200,7 @@ main {
   }
 
   .profile-section {
+    position: relative;
     top: 20px;
   }
 
@@ -207,7 +208,7 @@ main {
     width: 351px;
     height: 70px;
     border-radius: 0px 0px 10px 10px;
-    bottom: 8px;
+    bottom: 3px;
   }
 
   .share-toolbar p {
